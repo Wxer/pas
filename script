@@ -1,0 +1,6 @@
+local coinvalue = "1000000000000000000000000"
+local gemvalue = "1000000000000000000000000"
+local t = true
+
+game:GetService("ReplicatedStorage").Orb:FireServer(coinvalue, t)
+game:GetService("ReplicatedStorage").Orb2:FireServer(gemvalue, t)
